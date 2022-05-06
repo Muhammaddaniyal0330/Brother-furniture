@@ -1,0 +1,189 @@
+.main-logo {
+   height: 80px;
+}
+
+.main-navbar {
+   background-color: rgb(41, 90, 133);
+
+}
+
+li a {
+   color: azure !important;
+
+}
+
+li a:hover {
+   background-color: aquamarine;
+   opacity: 1px;
+}
+
+.container-two {
+   margin: 80px;
+}
+
+.heading-one {
+   color: #666666 !important;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* div[class="card-body"]{
+   height: 200px;
+} */
+
+.container-3 {
+   margin: 100px;
+   text-align: center;
+   /* margin-bottom: 20px; */
+}
+
+.class-hr {
+   width: 200px;
+   color: #337ab7;
+   margin: 0 auto;
+   display: block;
+
+}
+
+div>button {
+   background-color: #337ab7;
+   color: azure;
+   border-radius: 3px 3px 3px 3px;
+   margin-bottom: 20px;
+}
+
+div>button:hover {
+   background-color: aquamarine;
+   opacity: 1px;
+}
+
+
+
+img[class="card-img-top"] {
+   width: 100% !important;
+}
+
+
+
+.card2:hover {
+   transform: scale(1.1);
+   z-index: 1;
+}
+
+
+.container-five {
+   background-color: #666666;
+   display: flex;
+   background-image: url(./Images/bg-form.jpg);
+   background-size: cover;
+   justify-content: space-evenly !important;
+   margin-top: 20px;
+}
+
+.child-five {
+   padding: 50px;
+}
+
+.sub-button {
+   background-color: #337ab7;
+   color: #ffffff;
+   width: 100px;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+
+
+.form {
+   padding-top: 4%;
+   padding-bottom: 1px;
+
+}
+
+.form-child {
+   border: 1px solid black;
+   background-color: #333333;
+   width: 300px;
+   padding: 20px;
+   border-radius: 3px;
+   
+}
+
+.service-h2 {
+   color: #ff9900;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+   color: azure;
+}
+
+.direction-div {
+   padding-top: 4%;
+   justify-content: space-evenly;
+
+}
+
+.direction-child {
+   margin: 20px;
+   padding-top: 18px;
+}
+
+.submit-btn {
+   background-color: #337ab7;
+   color: #ffffff;
+   width: 100px;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+
+
+
+.copyright-section {
+   display: flex;
+   background-color: #333333;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.copyright-paragraph {
+   color: azure;
+   padding-top: 8px;
+   
+}
+
+
+
+
+.icon-1 {
+   color: #1877f2;
+   font-size: 18px;
+}
+
+.icons-2 {
+   color: #3f729b;
+   font-size: 18px;
+
+}
+
+.icons-3 {
+   color: #1877f2;
+   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+   .container-five {
+      flex-direction: column !important;
+      text-align: center;
+      align-items: center;
+      margin-top: 0;
+   }
+
+   .form {
+      padding-top: 0%;
+   }
+
+   .direction-div {
+      margin-top: 60px;
+   }
+
+}
